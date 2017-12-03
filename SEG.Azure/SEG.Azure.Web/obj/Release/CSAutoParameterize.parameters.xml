@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AzureWebJobsDashboard-Web.config Connection String" description="AzureWebJobsDashboard Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\GitRepository\\Code\\Projects\\SEG\.Azure\\SEG\.Azure\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsDashboard']/@connectionString" />
+  </parameter>
+  <parameter name="AzureWebJobsStorage-Web.config Connection String" description="AzureWebJobsStorage Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\GitRepository\\Code\\Projects\\SEG\.Azure\\SEG\.Azure\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsStorage']/@connectionString" />
+  </parameter>
+  <parameter name="AzureConnectionString-Web.config Connection String" description="AzureConnectionString Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\GitRepository\\Code\\Projects\\SEG\.Azure\\SEG\.Azure\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

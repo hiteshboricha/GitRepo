@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHK95xdcbt0aXtWM+0FXPLAAAAAACAAAAAAAQZgAAAAEAACAAAABkeIHCboI0KnKAiYjo1uPiN6TQ2adaR8GiO+v8Neto2gAAAAAOgAAAAAIAACAAAADlXAl6P/bG/TeH1OOU9zFyeAmRrKNgMvcGsyE4do5hJoAAAACkdjg1X7xaPBMRITl+vRsOvaSSau8kVRO4tsl1YgcDmCqqhfdSY58nsWtlRUeTIer7uW74K4LvNKBBOcwhDoK2+mrXY0r7X7dCswYY04QCnrh4cbtws08kG9pX3Y7oscZi6XSfRgdFVZ1NaqZjXYjt2aSC4nJTOOVTISYB9EnU50AAAAA3L0qVmPAmYjgtEUnFVMugG4ZTHFxe2MGOmYXWgubUnCZC6kXo/vumuaWm8AUV6LWZfekfrddMw6nIdZ2n5e2B</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==" />
+    <AzureDBConnectionStrings Include="DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net" />
+    <AzureDBConnectionStrings Include="Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30" />
+  </ItemGroup>
+</Project>

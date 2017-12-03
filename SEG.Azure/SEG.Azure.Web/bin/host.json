@@ -1,0 +1,34 @@
+{
+    "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.0.0",
+    "configurationSource": "attributes",
+    "bindings": [
+        {
+            "type": "httpTrigger",
+            "methods": [
+                "get",
+                "post",
+                "delete"
+            ],
+            "authLevel": "anonymous",
+            "name": "req"
+        }
+    ],
+    "disabled": false,
+    "scriptFile": "..\\bin\\SEG.Azure.Function.dll",
+    "entryPoint": "SEG.Azure.Function.DeleteEmployee.Run",
+    "Values": {
+        "SQLConnectionString": "Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net",
+        "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net",
+        "AzureConnectionString": "Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    },
+    "ConnectionStrings": {
+        "SQLConnectionString": "Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net",
+        "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net",
+        "AzureConnectionString": "Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    },
+    "functions": [
+        "DeleteEmployee"
+    ]
+}

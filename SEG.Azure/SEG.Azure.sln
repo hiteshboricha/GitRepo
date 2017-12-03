@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.Azure.Data", "SEG.Azure.Data\SEG.Azure.Data.csproj", "{71BDE98F-B195-46B3-86F1-521288681CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.Azure.Entities", "SEG.Azure.Entities\SEG.Azure.Entities.csproj", "{E9B8421F-724A-41E0-8FCA-5B9945BC4C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.Azure.Business", "SEG.Azure.Business\SEG.Azure.Business.csproj", "{C4B6EFFD-0AA6-4D6A-91B3-DD9FE0B28E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.Azure.Web", "SEG.Azure.Web\SEG.Azure.Web.csproj", "{6119A525-C469-4EF3-B789-18B36FCE526B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.Azure.WebJobAge", "SEG.Azure.WebJobAge\SEG.Azure.WebJobAge.csproj", "{D5BE6FD1-C9D6-4AAA-82BA-B37815920401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.Azure.WebJobStorage", "SEG.Azure.WebJobStorage\SEG.Azure.WebJobStorage.csproj", "{D245C267-9892-4D5E-B68E-18B6B1B34041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.Azure.Function", "SEG.Azure.Function\SEG.Azure.Function.csproj", "{185219E4-E1E7-4EC1-8405-E8220CE7857C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71BDE98F-B195-46B3-86F1-521288681CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BDE98F-B195-46B3-86F1-521288681CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BDE98F-B195-46B3-86F1-521288681CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BDE98F-B195-46B3-86F1-521288681CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B8421F-724A-41E0-8FCA-5B9945BC4C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B8421F-724A-41E0-8FCA-5B9945BC4C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B8421F-724A-41E0-8FCA-5B9945BC4C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B8421F-724A-41E0-8FCA-5B9945BC4C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B6EFFD-0AA6-4D6A-91B3-DD9FE0B28E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B6EFFD-0AA6-4D6A-91B3-DD9FE0B28E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B6EFFD-0AA6-4D6A-91B3-DD9FE0B28E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B6EFFD-0AA6-4D6A-91B3-DD9FE0B28E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6119A525-C469-4EF3-B789-18B36FCE526B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6119A525-C469-4EF3-B789-18B36FCE526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6119A525-C469-4EF3-B789-18B36FCE526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6119A525-C469-4EF3-B789-18B36FCE526B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BE6FD1-C9D6-4AAA-82BA-B37815920401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BE6FD1-C9D6-4AAA-82BA-B37815920401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BE6FD1-C9D6-4AAA-82BA-B37815920401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BE6FD1-C9D6-4AAA-82BA-B37815920401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D245C267-9892-4D5E-B68E-18B6B1B34041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D245C267-9892-4D5E-B68E-18B6B1B34041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D245C267-9892-4D5E-B68E-18B6B1B34041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D245C267-9892-4D5E-B68E-18B6B1B34041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185219E4-E1E7-4EC1-8405-E8220CE7857C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185219E4-E1E7-4EC1-8405-E8220CE7857C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185219E4-E1E7-4EC1-8405-E8220CE7857C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185219E4-E1E7-4EC1-8405-E8220CE7857C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58B92DBF-573C-48BD-AC36-155940D27F98}
+	EndGlobalSection
+EndGlobal
