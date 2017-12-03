@@ -1,0 +1,18 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net",
+        "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net",
+        "AzureConnectionString": "Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    },
+    "Host": {
+        "LocalHttpPort": 7071,
+        "CORS": "*"
+    },
+    "ConnectionStrings": {
+        "SQLConnectionString": "Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net",
+        "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=hiteshborichastorageacct;AccountKey=aTPMbXhxxmWu0LqeKF3qiBkswKUQ4GY9ZirAQfLd1VFZbVgFPTzOLijYfXSCJDxRdhpDVBv1n69V96MzCS1wCw==;EndpointSuffix=core.windows.net",
+        "AzureConnectionString": "Server=tcp:segassignmentsqlserver.database.windows.net,1433;Initial Catalog=EmployeeManagementSystem;Persist Security Info=False;User ID=segadmin;Password=seg@2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    }
+}
